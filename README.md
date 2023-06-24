@@ -75,5 +75,5 @@ Captcha solving is not happening in this application as OCR algorithms by defaul
 
 ### Showcase
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/fWP_FODGIIs/0.jpg)](https://www.youtube.com/watch?v=fWP_FODGIIs)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/sbimrn6YZeY/0.jpg)](https://www.youtube.com/watch?v=sbimrn6YZeY)
 
