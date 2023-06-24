@@ -65,6 +65,14 @@ public static SearchResult SearchForImage(string imageToSearchFor, string imageT
 ### License
 When application starts, client must authorize against backend database. Client is identified mainly using UUID and if exists in the database he gets as a response license information. If license is expired, bot will not start. For communication with backend, Bearer authentication method is used.
 
+### Captcha solver
+
+<img src="https://github.com/AndrejVysinsky/metin2-miner-readme/assets/59775817/71d808c4-77b3-42b6-8fc9-463a3eea0860" width="200">
+
+Server Stellaria uses captcha system to prevent players from using auto clickers or some other automation. Captcha system consists of image with 3 random numbers and numpad to enter the numbers from image. Captcha is displayed every 15 minutes and failing to complete it disconnects player from server.
+
+Captcha solving is not happening in this application as OCR algorithms by default are not built for it and were failing reading the numbers most of the time. Instead, application sends image to backend where we are calling AZCaptcha API (https://azcaptcha.com/) which solves the image for us. Result is sent back to the client and numbers are automatically inputted.
+
 ### Showcase
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/fWP_FODGIIs/0.jpg)](https://www.youtube.com/watch?v=fWP_FODGIIs)
