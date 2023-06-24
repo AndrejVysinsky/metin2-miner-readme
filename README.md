@@ -65,5 +65,7 @@ public static SearchResult SearchForImage(string imageToSearchFor, string imageT
 ### License
 When application starts, client must authorize against backend database. Client is identified mainly using UUID and if exists in the database he gets as a response license information. If license is expired, bot will not start. For communication with backend, Bearer authentication method is used.
 
+### Showcase
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/fWP_FODGIIs/0.jpg)](https://www.youtube.com/watch?v=fWP_FODGIIs)
 
