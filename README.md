@@ -26,7 +26,7 @@ Each instance of mining bot has 2 configuration windows, mining point and loot w
 
 Mining point serves as a clickable point in the centre of which the ore is located. This point is clicked automatically every mining cycle. We know that ore respawns always at the same place which we can take the advantage of. When ore vein disappears, we would have been clicking on the ground and eventually move away and get stuck. However, under characters feet there is a small space which prevents character from moving forward but allows us to click at ore vein. This way we won’t wander away even if the ore vein disappears.
 
-Loot window detects any change of its contents. Every picked up item shows in this part of the screen. On every update (1-2 seconds) bot tries to pick up items from the ground and subsequently checks any changes inside the loot window. Each checks compares it with default version and if there is significant  difference, loot was collected which means mining cycle ended and we can start the next one.
+Loot window detects any change of its contents. Every picked up item shows in this part of the screen. On every update (1-2 seconds) bot tries to pick up items from the ground and subsequently checks any changes inside the loot window. Each check compares it with default version and if there is significant  difference, loot was collected which means mining cycle ended and we can start the next one.
 
 Comparing two images/finding one image in another:
 ```
