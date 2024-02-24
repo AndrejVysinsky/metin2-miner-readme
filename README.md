@@ -1,6 +1,6 @@
 # Metin2 Mining Bot
 
-**This project was made only for educational and learning purposes.**
+**This project was made only for educational and learning purposes. Source code will remain private while server Stellaria is still active.**
 
 Project built using .NET desktop application and EmguCV library (.NET wrapper for OpenCV image processing library). Main functionality of this project is to enable automatic mining of resources in game Metin2. This bot does not use code injection but relies on image processing algorithms, so its not dependent on any libraries used by game client.
 
